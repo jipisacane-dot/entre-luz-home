@@ -2,110 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://entretelas-home.com/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://entreluz.casa/</loc>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/hero-cortinas-living-comedor.jpg</image:loc>
-      <image:caption>Living con cortinados a medida en tela natural</image:caption>
-      <image:title>Cortinados a medida — Entre Telas</image:title>
+      <image:loc>https://entreluz.casa/images/og-cover.jpg</image:loc>
+      <image:caption>Suite con cortinados de tela gris y sheer confeccionados por Entre Luz Home</image:caption>
+      <image:title>Cortinas y cortinados a medida — Entre Luz Home</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortinas-tela-living-amplio.jpg</image:loc>
-      <image:caption>Cortinado de tela natural en living con techo de madera</image:caption>
+      <image:loc>https://entreluz.casa/images/hero-cortinas-living-comedor.jpg</image:loc>
+      <image:caption>Living con cortinados sheer a medida filtrando la luz sobre un ventanal</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-blackout-combinado.jpg</image:loc>
-      <image:caption>Cortina roller blackout con cortinado de tela combinado</image:caption>
+      <image:loc>https://entreluz.casa/images/cortinas-tela-living-amplio.jpg</image:loc>
+      <image:caption>Cortinado de tela natural a medida en living con techo de madera</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-blackout-bajada.jpg</image:loc>
+      <image:loc>https://entreluz.casa/images/cortina-roller-blackout-combinado.jpg</image:loc>
+      <image:caption>Cortina roller blackout a medida con cortinado de tela en sistema combinado</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-roller-screen-estudio.jpg</image:loc>
+      <image:caption>Cortina roller screen a medida filtrando la luz del día en un estudio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortinado-tela-natural-living.jpg</image:loc>
+      <image:caption>Cortinado de tela natural a medida en living con sofá</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-combinada-roller-tela.jpg</image:loc>
+      <image:caption>Sistema combinado de cortina roller y cortinado de tela a medida</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-veneziana-madera-detalle.jpg</image:loc>
+      <image:caption>Cortina veneziana de madera a medida con luz filtrando entre las lamas</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortinado-tela-clasica.jpg</image:loc>
+      <image:caption>Ropa de cama a medida: almohadones y acolchado de tela natural</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-tela-luz-natural.jpg</image:loc>
+      <image:caption>Cortina de tela a medida dejando pasar la luz natural en un dormitorio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-roller-blackout-bajada.jpg</image:loc>
       <image:caption>Cortina roller blackout completamente bajada en dormitorio</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-blackout-dormitorio.jpg</image:loc>
-      <image:caption>Cortina roller blackout en dormitorio</image:caption>
+      <image:loc>https://entreluz.casa/images/suite-cortinados-tela-gris.jpg</image:loc>
+      <image:caption>Suite con cortinados de tela gris y sheer en ventanales esquineros</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-screen-azul.jpg</image:loc>
-      <image:caption>Cortina roller screen color azul</image:caption>
+      <image:loc>https://entreluz.casa/images/cortina-tela-sheer-detalle.jpg</image:loc>
+      <image:caption>Detalle de cortina sheer dejando pasar la luz natural</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-screen-detalle.jpg</image:loc>
-      <image:caption>Detalle de cortina roller screen filtrando luz</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-screen-estudio.jpg</image:loc>
-      <image:caption>Cortina roller screen en estudio filtrando luz natural</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-roller-dormitorio-noche.jpg</image:loc>
-      <image:caption>Cortina roller blackout en dormitorio con iluminación nocturna</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortinado-tela-natural-living.jpg</image:loc>
-      <image:caption>Cortinado de tela natural en living con sofá</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortinado-tela-clasica.jpg</image:loc>
-      <image:caption>Cortinado de tela en estilo clásico</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortinado-tela-instalacion-obra.jpg</image:loc>
-      <image:caption>Cortinado de tela durante instalación en obra</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-combinada-roller-tela.jpg</image:loc>
-      <image:caption>Sistema combinado roller y cortinado de tela</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-combinada-tela-roller.jpg</image:loc>
-      <image:caption>Combinación de tela y roller en un mismo ambiente</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-combinada-dormitorio-jardin.jpg</image:loc>
-      <image:caption>Sistema combinado en dormitorio con salida al jardín</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-tela-dormitorio-jardin.jpg</image:loc>
-      <image:caption>Cortinado de tela en dormitorio con vista al jardín</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-tela-luz-natural.jpg</image:loc>
-      <image:caption>Cortina de tela dejando pasar la luz natural</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-tela-sheer-detalle.jpg</image:loc>
-      <image:caption>Detalle de cortina sheer con luz natural filtrada</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://entretelas-home.com/images/living-cortina-sheer-terraza.jpg</image:loc>
+      <image:loc>https://entreluz.casa/images/living-cortina-sheer-terraza.jpg</image:loc>
       <image:caption>Cortinados sheer en living con puertas al jardín</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/suite-cortinados-tela-gris.jpg</image:loc>
-      <image:caption>Suite con cortinados de tela gris y sheer</image:caption>
+      <image:loc>https://entreluz.casa/images/cortina-combinada-tela-roller.jpg</image:loc>
+      <image:caption>Sistema combinado roller y cortinado de tela con vista al jardín</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-veneziana-madera-detalle.jpg</image:loc>
-      <image:caption>Detalle de cortina veneziana de madera</image:caption>
+      <image:loc>https://entreluz.casa/images/cortina-roller-screen-azul.jpg</image:loc>
+      <image:caption>Cortina roller screen azul a medida en ventana con vista a la calle</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/cortina-veneziana-madera-cocina.jpg</image:loc>
-      <image:caption>Cortina veneziana de madera en cocina</image:caption>
+      <image:loc>https://entreluz.casa/images/cortina-roller-dormitorio-noche.jpg</image:loc>
+      <image:caption>Cortina roller blackout en dormitorio con iluminación nocturna</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/dormitorio-roller-blanco-amplio.jpg</image:loc>
-      <image:caption>Dormitorio amplio con ropa de cama y cortina roller blanca</image:caption>
+      <image:loc>https://entreluz.casa/images/cortina-veneziana-madera-cocina.jpg</image:loc>
+      <image:caption>Cortina veneziana de madera a medida en cocina</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/dormitorio-roller-blanco-ratan.jpg</image:loc>
-      <image:caption>Dormitorio con ropa de cama y roller blanco con detalle ratán</image:caption>
+      <image:loc>https://entreluz.casa/images/dormitorio-roller-blanco-ratan.jpg</image:loc>
+      <image:caption>Dormitorio con ropa de cama a medida y cortina roller blanca instalada</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://entretelas-home.com/images/dormitorio-cucheta-cortina-gris.jpg</image:loc>
-      <image:caption>Dormitorio con cuchetas y cortina de tela gris a medida</image:caption>
+      <image:loc>https://entreluz.casa/images/dormitorio-roller-blanco-amplio.jpg</image:loc>
+      <image:caption>Dormitorio amplio con ropa de cama a medida y cortina roller blanca</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/dormitorio-cucheta-cortina-gris.jpg</image:loc>
+      <image:caption>Dormitorio con cuchetas, ropa de cama y cortina de tela gris a medida</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortinado-tela-instalacion-obra.jpg</image:loc>
+      <image:caption>Instalación de cortinado de tela a medida en obra</image:caption>
     </image:image>
   </url>
 </urlset>
