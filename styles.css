@@ -815,3 +815,132 @@ em { font-style: italic; }
   .hero-image img { transform: none; animation: none; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* =========================================================
+   Mobile — navegación más corta y fácil
+   ========================================================= */
+.nav-cta { display: none; }
+.scroll-hint { display: none; }
+.mobile-cta { display: none; }
+
+@media (max-width: 720px) {
+  :root { --section: 3.75rem; }
+  html { scroll-padding-top: 4.5rem; }
+  .section-head { margin-bottom: 2.25rem; }
+  .section-sub { font-size: 0.98rem; }
+
+  /* Hero más compacto: título, una línea de apoyo y un solo botón dominante */
+  .hero { min-height: 92svh; padding-bottom: 3rem; }
+  .hero h1 { font-size: clamp(2.1rem, 9.5vw, 2.7rem); margin-bottom: 1rem; }
+  .hero-sub { font-size: 0.98rem; margin-bottom: 1.6rem; }
+  .hero-actions { gap: 0.6rem; margin-bottom: 1.6rem; }
+  .cta-primary, .cta-secondary { padding: 0.95rem 1.4rem; font-size: 0.95rem; }
+  .hero-meta { flex-direction: row; gap: 0.4rem 1.1rem; font-size: 0.78rem; color: rgba(255,255,255,0.7); }
+
+  /* Botón de WhatsApp dentro del menú */
+  .nav-cta { display: block; margin-top: 1.2rem; }
+  .nav-cta .cta-wsp { width: 100%; justify-content: center; padding: 0.9rem 1rem; font-size: 1rem; }
+
+  /* Intro: foto apaisada para no alargar */
+  .intro-figure img { aspect-ratio: 4 / 3; }
+  .intro-figure::after, .intro-figure::before { display: none; }
+  .intro-text p { font-size: 1rem; }
+
+  /* Productos y ropa de cama: carrusel deslizable con snap */
+  .product-grid, .ropacama-grid {
+    display: flex;
+    gap: 0.9rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin: 0 calc(-1 * var(--pad));
+    padding: 0.25rem var(--pad) 0.5rem;
+    scroll-padding-left: var(--pad);
+  }
+  .product-grid::-webkit-scrollbar, .ropacama-grid::-webkit-scrollbar { display: none; }
+  .product-card, .ropacama-grid figure {
+    flex: 0 0 80%;
+    max-width: 320px;
+    scroll-snap-align: start;
+  }
+  .product-card figure { aspect-ratio: 1 / 1; }
+  .product-body { padding: 1.1rem 1.1rem 1.25rem; }
+  .product-body h3 { font-size: 1.35rem; }
+  .product-body p { font-size: 0.9rem; margin-bottom: 0.9rem; }
+  .product-link { padding: 0.4rem 0; font-size: 0.78rem; }
+  .ropacama-grid figure { aspect-ratio: 4 / 5; box-shadow: none; }
+  .scroll-hint {
+    display: block;
+    text-align: center;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 0.4rem 0 0;
+  }
+  /* Los reveal no deben desplazar tarjetas dentro del carrusel */
+  .product-card.reveal, .ropacama-grid figure.reveal { transform: none; transition-delay: 0s; }
+
+  /* Valores: dos columnas compactas */
+  .value-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem 1.25rem; }
+  .value-grid li { padding-top: 1rem; }
+  .value-num { font-size: 1rem; margin-bottom: 0.4rem; }
+  .value-grid h3 { font-size: 1.15rem; }
+  .value-grid p { font-size: 0.86rem; }
+
+  /* Galería: siempre dos columnas, filas bajas */
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; gap: 0.6rem; }
+  .gallery-grid .g-wide { grid-column: span 2; }
+  .gallery-grid .g-tall { grid-row: span 2; }
+  .gallery-grid figcaption { font-size: 0.66rem; padding: 1.4rem 0.6rem 0.55rem; }
+
+  /* Proceso: foto apaisada */
+  .process-figure img { aspect-ratio: 4 / 3; }
+  .process-steps li { padding: 1.05rem 0 1.05rem 3.1rem; }
+  .process-steps li::before { width: 2.1rem; height: 2.1rem; top: 1.05rem; font-size: 0.9rem; }
+  .process-steps strong { font-size: 1.2rem; }
+  .process-steps p { font-size: 0.92rem; }
+
+  /* Barra fija de WhatsApp: aparece al pasar el hero, reemplaza al botón flotante */
+  .mobile-cta {
+    display: block;
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 95;
+    padding: 0.6rem var(--pad) calc(0.6rem + env(safe-area-inset-bottom));
+    background: rgba(250, 247, 242, 0.94);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 -1px 0 rgba(28, 25, 22, 0.06), 0 -10px 30px -20px rgba(28, 25, 22, 0.3);
+    transform: translateY(110%);
+    transition: transform var(--transition);
+  }
+  body.past-hero .mobile-cta { transform: none; }
+  .mobile-cta .cta-wsp {
+    width: 100%;
+    justify-content: center;
+    padding: 0.95rem 1rem;
+    font-size: 1rem;
+    box-shadow: none;
+  }
+  .wsp-float { display: none; }
+  body.past-hero { padding-bottom: 4.5rem; }
+  .site-footer { padding-bottom: 5.5rem; }
+
+  /* Contacto */
+  .contact-sub { font-size: 0.98rem; }
+  .contact-fine { font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 140px; }
+  .gallery-grid .g-wide { grid-column: span 2; }
+  .gallery-grid .g-tall { grid-row: span 2; }
+}
+
+@media (max-width: 720px) {
+  /* El botón del menú no hereda el estilo de los links del panel */
+  .site-nav .nav-cta a { color: #fff !important; font-family: var(--sans); font-size: 1rem; }
+  .site-nav .nav-cta a::after { display: none; }
+}

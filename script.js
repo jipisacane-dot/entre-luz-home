@@ -101,8 +101,10 @@
   var heroSection = document.querySelector('.hero');
   if (wspFloat && heroSection && 'IntersectionObserver' in window) {
     var heroObs = new IntersectionObserver(function (entries) {
-      if (entries[0].isIntersecting) wspFloat.classList.add('wsp-hidden');
-      else wspFloat.classList.remove('wsp-hidden');
+      var inHero = entries[0].isIntersecting;
+      wspFloat.classList.toggle('wsp-hidden', inHero);
+      // La barra fija de mobile aparece recién al salir del hero
+      document.body.classList.toggle('past-hero', !inHero);
     }, { threshold: 0.2 });
     heroObs.observe(heroSection);
   }
