@@ -96,4 +96,64 @@
       <image:caption>Instalación de cortinado de tela a medida en obra</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://entreluz.casa/roller-blackout</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-roller-blackout-dormitorio.jpg</image:loc>
+      <image:caption>Cortina roller blackout a medida instalada en un dormitorio</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://entreluz.casa/roller-screen</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-roller-screen-estudio.jpg</image:loc>
+      <image:caption>Cortina roller screen filtrando la luz en un estudio</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://entreluz.casa/cortinados-de-tela</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortinas-tela-living-amplio.jpg</image:loc>
+      <image:caption>Cortinado de tela natural a medida en living con techo de madera</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://entreluz.casa/sistemas-combinados</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-combinada-roller-tela.jpg</image:loc>
+      <image:caption>Sistema combinado de cortina roller y cortinado de tela a medida</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://entreluz.casa/venezianas</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/cortina-veneziana-madera-detalle.jpg</image:loc>
+      <image:caption>Cortina veneziana de madera oscura con luz filtrando entre las lamas</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://entreluz.casa/ropa-de-cama</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://entreluz.casa/images/dormitorio-roller-blanco-amplio.jpg</image:loc>
+      <image:caption>Dormitorio con ropa de cama a medida y cortina roller blanca</image:caption>
+    </image:image>
+  </url>
 </urlset>
