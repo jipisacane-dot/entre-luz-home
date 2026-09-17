@@ -18,6 +18,12 @@
     el.setAttribute('href', 'https://wa.me/' + WSP_NUMERO + '?text=' + encodeURIComponent(msg));
     el.setAttribute('target', '_blank');
     el.setAttribute('rel', 'noopener');
+    // Google Ads: cada clic a WhatsApp cuenta como conversión "Chat de WhatsApp"
+    el.addEventListener('click', function () {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'conversion', { 'send_to': 'AW-18458130879/f-wUCL_AnvscEL_zwuFE' });
+      }
+    });
   });
 
   // 2) Estado del header al hacer scroll
