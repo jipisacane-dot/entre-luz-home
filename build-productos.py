@@ -363,6 +363,7 @@ def render(p):
   <meta name="theme-color" content="#faf7f2">
   <meta name="format-detection" content="telephone=no">
   <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="google-site-verification" content="hC_4qHzH-s5JwuzRbfjRjSebgTMe9a4isv9MP7IivTg">
 
   <title>{e(p['title'])}</title>
   <meta name="description" content="{e(p['description'])}">
