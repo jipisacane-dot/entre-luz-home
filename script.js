@@ -1,5 +1,5 @@
 /* =========================================================
-   Entre Telas — script.js
+   Entre Luz Home — script.js
    Header scroll, mobile nav, scroll reveal, WhatsApp links
    ========================================================= */
 
@@ -9,7 +9,7 @@
   // === CONFIGURACIÓN — actualizar antes de publicar ============
   // Formato: número internacional sin "+" ni espacios. Ej: "5491133334444"
   const WSP_NUMERO = '5491166776019';
-  const WSP_DEFAULT = 'Hola Entre Telas! Quiero pedir un asesoramiento sin cargo para mis cortinas.';
+  const WSP_DEFAULT = 'Hola Entre Luz Home! Quiero pedir un asesoramiento sin cargo para mis cortinas.';
   // =============================================================
 
   // 1) Build WhatsApp links — each button uses its own data-wsp-msg or the default
